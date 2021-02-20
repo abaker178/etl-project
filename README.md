@@ -6,7 +6,8 @@
 ## Transformation types
 * Aggregation
   * Navigate to each State page and store the program data
-    - Credit unit counts
+    - Credit unit counts/time lengths
+    - Standardize the length
     - Whether the program is offered online or not
     - Other fields
 * Cleaning
