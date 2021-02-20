@@ -4,18 +4,20 @@
 * Master's in Data Science Website
 
 ## Transformation types
-* Aggregation
-  * Navigate to each State page and store the program data
-    - Credit unit counts/time lengths
-    - Standardize the length
-    - Whether the program is offered online or not
-    - Other fields
-* Cleaning
-  * Make sure each State page returns usable data (is formatted the same as the others)
+Aggregation
+* Scrape State page and store the program data
+ * Number of schools
+ * Number of programs by type
+ * Mean wage
+ * Projected job chance
 
 ## Final Production Database
-Non-relational (MongoDB)
+Relational (PostgreSQL)
 
 
 ## Optional
-Scrape the main State page for the stats per state (relational db)
+Navigate the different State pages for the stats per state (non-relational db)
+* Credit unit counts/time lengths
+* Standardize the length
+* Whether the program is offered online or not
+* Other fields
