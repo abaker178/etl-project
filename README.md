@@ -5,12 +5,16 @@
 
 ## Transformation types
 Aggregation
-* Scrape State page and store the program data
- * Number of schools
- * Number of programs by type
- * Mean wage
- * Projected job chance
-
+* Scrape State page
+  * Number of schools
+  * Number of programs by type
+  * Mean wage
+  * Projected job chance
+* Scrape certain Careers pages that have salary data
+  * Avg
+  * Min
+  * Max
+  * Range
 ## Final Production Database
 Relational (PostgreSQL)
 
