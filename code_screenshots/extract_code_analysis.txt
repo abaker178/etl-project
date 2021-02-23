@@ -1,0 +1,18 @@
+extract1
+	Using the requests module, we can call the page URL and store the HTML. Once we have the HTML, we can parse it to create a BeautifulSoup object.
+
+extract2
+	After inspecting the site, we found that all of the states' "cards" were individual divs with the class of col-md-6. This Bootstrap class can be fairly common so to ensure that we captured only the states, we iterated through the list only printing the first line of text. If there were any entries that were not a state, then we would have needed to refine the code. Thankfully, we only captured state data.
+
+extract3
+	With each state card saved in a list, we iterated through and parsed out each data field we wanted to collect:
+		# of Schools
+		# of Programs in Business Analytics
+		# of Programs in Computer Science
+		# of Programs in Geospatial Science
+		# of Programs in Health Informatics
+		# of Certificates
+		# of Doctorates
+		Annual Mean Wage
+
+	Each of these values were then saved to a dictionary and appended to a list for ease of converting to a Pandas Dataframe
