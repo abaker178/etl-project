@@ -1,27 +1,17 @@
 # Extract, Transform, Load
 
-## Source(s)
-* Master's in Data Science Website
+## Source
+Master's in Data Science Website
 
-## Transformation types
-Aggregation
-* Scrape State page
-  * Number of schools
-  * Number of programs by type
-  * Mean wage
-  * Projected job chance
-* Scrape certain Careers pages that have salary data
-  * Avg
-  * Min
-  * Max
-  * Range
+## Extractraction Methods
+* Requests to get the HTML from the website
+* BeautifulSoup to parse the HTML
+
+## Transformation Methods
+* Use Pandas to convert list of dictionaries to a dataframe and fix formatting
+
+## Load Methods
+* Use SQLAlchemy and Pandas to send the dataframe to a PostgreSQL database
+
 ## Final Production Database
 Relational (PostgreSQL)
-
-
-## Optional
-Navigate the different State pages for the stats per state (non-relational db)
-* Credit unit counts/time lengths
-* Standardize the length
-* Whether the program is offered online or not
-* Other fields
