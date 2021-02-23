@@ -3,7 +3,7 @@
 ## Source
 Master's in Data Science Website
 
-## Extractraction Methods
+## Extraction Methods
 * Requests to get the HTML from the website
 * BeautifulSoup to parse the HTML
 
