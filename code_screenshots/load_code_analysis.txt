@@ -1,0 +1,4 @@
+using sqlalchemy we created an engine and connection to postgres
+in order to have it connect properly a database needs to be created in our local postgres named "datascience_db"
+by running our code table "programs_by_state" will be created in postgres datascience_db
+that includes the data stored in our dataframe.
