@@ -1,0 +1,10 @@
+Transform 1:
+  The initial transform is converting the entire dictionary created in the extract portion, into a pandas Dataframe. This was done by using a .from_dict function and identifying the dictionary to pull from. Then setting the index to the "State" column
+  
+Transform 2:
+  The next part of transforming the data is adjusting the "Annual Mean Wage" column to reflect only integers. The first step was removing the text in front of the integer by using .str.replace. This action creates a new column with the removed information so the next step was the remove the original column and change the name of the new column.
+  
+Transform 3:
+  This was similar to the process above but needing to remove the text behind the integer. The same function was used, .str.replace., and then again a new column was created and the old had to be removed.
+  
+The final outcome of this process was a DataFrame that was cleaned up with all integers and and clear column headers. 
